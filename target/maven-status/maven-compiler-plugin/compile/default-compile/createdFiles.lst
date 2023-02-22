@@ -1,0 +1,11 @@
+com\SpringTest\Test\Service\impl\ManagerServiceImpl.class
+com\SpringTest\Test\Entities\ManegerEntity.class
+com\SpringTest\Test\Service\StudentService.class
+com\SpringTest\Test\Repository\ManegerRepository.class
+com\SpringTest\Test\Dto\ManagerDto.class
+com\SpringTest\Test\Controller\StudentController.class
+com\SpringTest\Test\Service\ManegerService.class
+com\SpringTest\Test\Controller\ManegerController.class
+com\SpringTest\Test\Entities\StudentRegistration.class
+com\SpringTest\Test\Repository\StudentRepository.class
+com\SpringTest\Test\TestApplication.class
