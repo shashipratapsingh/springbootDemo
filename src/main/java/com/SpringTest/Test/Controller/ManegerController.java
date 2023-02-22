@@ -37,9 +37,6 @@ public class ManegerController {
 
 
     }*/
-
-
-    'awsdxcfgvbjhnxzsdfxcgvbhjn'
-    qwretyuetr
+    
 
 }
