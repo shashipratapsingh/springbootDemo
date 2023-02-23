@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Data
@@ -18,6 +19,6 @@ public class StudentRegistration {
     private  String studentName;
     private String studentAddress;
 
-   // @OneToMany
-    //private StudentRegistration studentRegistration;
+    @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER,mappedBy = "studentRegistration")
+    private List<ManegerEntity> manegerEntity;
 }

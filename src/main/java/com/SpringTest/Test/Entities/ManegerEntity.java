@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Data
@@ -17,4 +18,7 @@ public class ManegerEntity {
         private int manegerId;
         private String manegerName;
         private String manegerAddress;
+
+        @ManyToMany
+        private List<StudentRegistration> studentRegistration;
 }
